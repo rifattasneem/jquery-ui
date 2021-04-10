@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Jquery</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb py-4">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="widgets.html" target="blank">Widgets</a></li>
+              <li class="breadcrumb-item"><a href="effects.html" target="blank">Effects</a></li>
+            </ol>
+          </nav>
+
+          <!-- draggable -->
+          <h2 class="h2-1">Draggable</h2>
+          <div id="drag1" class="ui-widget-content text-center mb-2">
+            <p>Drag me around</p>
+          </div>
+
+          <!-- droppable -->
+          <h2 class="h2-1">Droppable</h2>
+          <div id="drag2" class="ui-widget-content mb-2">
+            <p>Drag me to my target</p>
+          </div>
+           
+          <div id="drop1" class="ui-widget-header mb-2">
+            <p>Drop here</p>
+          </div>
+
+          <!-- resizable -->
+          <h2 class="h2-1">Resizable</h2>
+          <div id="resizable" class="ui-widget-content mb-2">
+            <h3 class="ui-widget-header">Resizable</h3>
+          </div>
+
+          <!-- selectable -->
+          <h2 class="h2-1">Selectable</h2>
+          <ol id="selectable">
+            <li class="ui-state-default">1</li>
+            <li class="ui-state-default">2</li>
+            <li class="ui-state-default">3</li>
+            <li class="ui-state-default">4</li>
+            <li class="ui-state-default">5</li>
+            <li class="ui-state-default">6</li>
+            <li class="ui-state-default">7</li>
+            <li class="ui-state-default">8</li>
+            <li class="ui-state-default">9</li>
+            <li class="ui-state-default">10</li>
+            <li class="ui-state-default">11</li>
+            <li class="ui-state-default">12</li>
+          </ol>
+
+          <!-- sortable -->
+          <h2 class="h2-1">Sortable</h2>
+          <ul id="sortable1" class="connectedSortable mb-2">
+            <li class="ui-state-default">Item 1</li>
+            <li class="ui-state-default">Item 2</li>
+            <li class="ui-state-default">Item 3</li>
+            <li class="ui-state-default">Item 4</li>
+            <li class="ui-state-default">Item 5</li>
+          </ul>
+           
+          <ul id="sortable2" class="connectedSortable mb-2">
+            <li class="ui-state-highlight">Item 1</li>
+            <li class="ui-state-highlight">Item 2</li>
+            <li class="ui-state-highlight">Item 3</li>
+            <li class="ui-state-highlight">Item 4</li>
+            <li class="ui-state-highlight">Item 5</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,130 @@
+.h2-1{
+	padding: 3px;
+	color: white;
+	text-align: center;
+	background-color: #03a9f4;
+}
+
+/*draggable*/
+#drag1{
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    background-color: #d6df7c;
+}
+
+/*droppable*/
+#drag2{ 
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	/*float: left; */
+	margin: 10px 10px 10px 0; 
+}
+#drop1{ 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+	/*float: left; */
+	margin: 10px; 
+}
+
+/*resizable*/
+#resizable{ 
+	width: 500px; 
+	height: 150px; 
+	padding: 0.5em; 
+}
+#resizable h3{ 
+	text-align: center; 
+	margin: 0; 
+}
+
+/*selectable*/
+#selectable .ui-selecting{ 
+ 	background: #FECA40; 
+}
+#selectable .ui-selected{ 
+ 	background: #F39814; 
+ 	color: white; 
+}
+#selectable{ 
+ 	list-style-type: none; 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	width: 450px; 
+ 	overflow: hidden;
+}
+#selectable li{ 
+ 	margin: 3px; 
+ 	padding: 1px; 
+ 	float: left; 
+ 	width: 100px; 
+ 	height: 100px; 
+ 	font-size: 4em; 
+ 	text-align: center; 
+}
+
+/*sortable*/
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+}
+#sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+}
+
+/*accordion*/
+#accordion, #autocomplete{
+	margin-bottom: 10px;
+}
+
+/*menu*/
+.ui-menu{ 
+	width: 150px; 
+}
+
+/*color*/
+.toggler1 { 
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+#button1 { 
+	padding: .5em 1em; 
+	text-decoration: none; 
+}
+#effect1 { 
+	width: 240px; 
+	height: 170px; 
+	padding: 0.4em; 
+	position: relative; 
+	background: #fff; 
+}
+#effect1 h3 { 
+	margin: 0; 
+	padding: 0.4em; 
+	text-align: center; 
+}
+
+/*effects*/
+.toggler2 { width: 500px; height: 200px; position: relative; }
+    #button2 { padding: .5em 1em; text-decoration: none; }
+    #effect2 { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+    #effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+
+/*tooltip*/
+label {
+    display: inline-block;
+    width: 5em;
+  }

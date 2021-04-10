@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Jquery</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb py-4">
+              <li class="breadcrumb-item"><a href="index.html" target="blank">Home</a></li>
+              <li class="breadcrumb-item"><a href="widgets.html" target="blank">Widgets</a></li>
+              <li class="breadcrumb-item"><a href="effects.html">Effects</a></li>
+            </ol>
+          </nav>
+
+          <!-- color animation -->
+          <h2 class="h2-1">color animation</h2>
+
+          <div class="toggler1">
+            <div id="effect1" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed.
+              </p>
+            </div>
+          </div>
+           
+          <button id="button1" class="ui-state-default ui-corner-all btn btn-dark mb-4">Toggle Effect</button>
+
+          <!-- effects -->
+          <h2 class="h2-1">Effects</h2>
+
+          <div class="toggler2">
+            <div id="effect2" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+              <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed.
+              </p>
+            </div>
+          </div>
+           
+          <select name="effects" id="effectTypes">
+            <option value="blind">Blind</option>
+            <option value="bounce">Bounce</option>
+            <option value="clip">Clip</option>
+            <option value="drop">Drop</option>
+            <option value="explode">Explode</option>
+            <option value="fade">Fade</option>
+            <option value="fold">Fold</option>
+            <option value="highlight">Highlight</option>
+            <option value="puff">Puff</option>
+            <option value="pulsate">Pulsate</option>
+            <option value="scale">Scale</option>
+            <option value="shake">Shake</option>
+            <option value="size">Size</option>
+            <option value="slide">Slide</option>
+            <option value="transfer">Transfer</option>
+          </select>
+           
+          <button id="button2" class="ui-state-default ui-corner-all btn btn-dark mb-4">Run Effect</button>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+  </body>
+</html>
